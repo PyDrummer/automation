@@ -82,10 +82,10 @@ emailFound.sort()
 # print(emailFound)
 
 # for writing to a file now
-with open('new_assets/new_phone.txt', 'w+') as f:
+with open('assets/phone_numbers.txt', 'w+') as f:
     for nums in phoneFound:
         f.write(f'{nums}\n')
 
-with open('new_assets/new_email.txt', 'w+') as f:
+with open('assets/emails.txt', 'w+') as f:
     for email in emailFound:
         f.write(f'{email}\n')
